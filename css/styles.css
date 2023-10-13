@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-   background: #ffffff;
+  background: #ffffff;
+  color: #434455;
 }
 .list {
   list-style-type: none;
@@ -13,20 +14,19 @@ button {
 }
 /*header*/
 .page-header {
-  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
 }
 .logo {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .web-logo {
-  color: var(--IRIS, #4d5ae5);
+  color: #2e2f42;
 }
 .menu-link {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -35,9 +35,13 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.menu-link:hover {
+.menu-link:hover,
+.menu-link:focus {
   color: #404bbf;
   text-decoration: underline;
+}
+.contacts-menu {
+  font-style: normal;
 }
 .menu-contact {
   color: var(--SLATE, #434455);
@@ -46,7 +50,12 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.email-link:hover {
+.email-link:hover,
+.email-link:focus {
+  color: #404bbf;
+}
+.tel-link:hover,
+.tel-link:focus {
   color: #404bbf;
 }
 /*HERO============================*/
@@ -63,16 +72,15 @@ button {
   letter-spacing: 0.02em;
 }
 .order-button {
-  border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--WHITE, #fff);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.order-button:hover {
+.order-button:hover,
+.order-button:focus {
   background: #404bbf;
 }
 /*EFFECTIVE SOLUTIONS===============================*/
@@ -82,6 +90,9 @@ button {
 }
 .tittle-strategy {
   color: #ffffff;
+}
+.solutions-list {
+  background-color: #ffffff;
 }
 .tittle-section {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -123,11 +134,17 @@ button {
   background: var(--NAVY-BLUE, #2e2f42);
 }
 .logo-footer {
-  color: var(--CLOUD, #f4f4fd);
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.web-logo {
+  color: #f4f4fd;
+}
+.text-section {
+  color: #f4f4fd;
 }
