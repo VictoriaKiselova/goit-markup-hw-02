@@ -25,7 +25,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.web-logo {
+.span-logo {
   color: #2e2f42;
 }
 .menu-link {
@@ -102,11 +102,11 @@ button {
   letter-spacing: 0.02em;
 }
 .text-section {
-  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 /*OUR TEAM======================================*/
 
@@ -122,8 +122,8 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.team-list{
-  background-color: #FFFFFF
+.our-team-list {
+  background-color: #ffffff;
 }
 
 /*PAGE PORTFOLIO=================================*/
